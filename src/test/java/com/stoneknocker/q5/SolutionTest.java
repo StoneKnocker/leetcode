@@ -9,7 +9,7 @@ public class SolutionTest {
     @Test
     void one() {
         var solution = new Solution();
-        assertTrue(solution.longestPalindrome("babad").equals( "aba") || solution.longestPalindrome("babad").equals( "bab"));
+        assertTrue(solution.longestPalindrome("babad").equals("aba") || solution.longestPalindrome("babad").equals("bab"));
         assertEquals(solution.longestPalindrome("cbbd"), "bb");
         assertEquals("a", solution.longestPalindrome("a"));
     }
