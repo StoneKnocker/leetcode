@@ -36,5 +36,6 @@ public class Solution {
         System.out.println(solution.combinationSum2(new int[]{10,1,2,7,6,1,5}, 8));
         System.out.println(solution.combinationSum2(new int[]{1,1,1,2,3,}, 3));
         System.out.println(solution.combinationSum2(new int[]{1,1,1,2,3,}, 4));
+        System.out.println(solution.combinationSum2(new int[]{1,1,1,1,1,2,3,4}, 5));
     }
 }
