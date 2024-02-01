@@ -1,4 +1,4 @@
-package com.stoneknocker.search.q90;
+package com.stoneknocker.search.combination.q90;
 
 import java.util.ArrayList;
 import java.util.Arrays;

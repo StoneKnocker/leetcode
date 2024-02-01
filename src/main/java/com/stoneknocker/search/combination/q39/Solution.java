@@ -1,4 +1,4 @@
-package com.stoneknocker.search.q39;
+package com.stoneknocker.search.combination.q39;
 
 import java.util.ArrayList;
 import java.util.List;
