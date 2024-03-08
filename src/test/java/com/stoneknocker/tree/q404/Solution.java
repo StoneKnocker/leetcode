@@ -17,7 +17,11 @@ public class Solution {
             }
             return;
         }
-        travel(node.left, true);
-        travel(node.right, false);
+        if (node.left != null) {
+            travel(node.left, true);
+        }
+        if (node.right != null) {
+            travel(node.right, false);
+        }
     }
 }
