@@ -18,6 +18,6 @@ public class Solution {
         var leftValue =  travel(node.left);
         var rightValue =  travel(node.right);
         tiltSum += Math.abs(leftValue - rightValue);
-        return leftValue + rightValue;
+        return leftValue + rightValue + node.val;
     }
 }
